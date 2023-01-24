@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubah Warna</title>
+</head>
+
+<body>
+    <p>Klik tombol dibawah untuk merubah warna background </p>
+    <button onclick="ubahWarna()">Change color</button>
+
+    <script>
+        function ubahWarna() {
+            let color = prompt(`
+            Masukkan warna yang kamu sukai
+            (dalam bahasa inggris ya (red, yellow, chocolate))
+            `)
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+
+</html>
